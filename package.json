@@ -1,5 +1,5 @@
 {
-  "name": "psd",
+  "name": "psd-clipper",
   "version": "0.0.1",
   "description": "Get Adobe PhotoShop .psd informations with Node.js",
   "main": "index.js",
@@ -25,20 +25,21 @@
     "eslint": "^3.7.1",
     "eslint-config-airbnb-base": "^8.0.0",
     "eslint-plugin-import": "^1.16.0",
+    "image-size": "^0.5.1",
     "mocha": "^2.3.3",
     "nyc": "^10.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cupools/psd.git"
+    "url": "https://github.com/cupools/psd-clipper.git"
   },
   "engines": {
     "node": ">=4.0.0"
   },
   "bugs": {
-    "url": "https://github.com/cupools/psd/issues"
+    "url": "https://github.com/cupools/psd-clipper/issues"
   },
-  "homepage": "https://github.com/cupools/psd#readme",
+  "homepage": "https://github.com/cupools/psd-clipper#readme",
   "dependencies": {
     "babel-runtime": "^6.20.0",
     "checkin": "0.0.1",

@@ -4,7 +4,7 @@ export default {
   psd: {
     typeOf: 'string',
     satisfy(val) {
-      return fs.exitsSync(val)
+      return fs.existsSync(val)
     }
   },
   src: {

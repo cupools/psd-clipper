@@ -6,8 +6,7 @@ import checkin from 'checkin'
 import lint from './lint'
 
 function process(option) {
-  const { psd } = checkin(option, lint)
-  const src = option.src.splice ? option.src : [option.src]
+  const { psd, src } = checkin(option, lint)
   const file = PSD.fromFile(psd)
 
   file.parse()
@@ -51,7 +50,7 @@ function collect(tree, src) {
 }
 
 function read(node) {
-  let png = node.toPng()
+  const png = node.toPng()
   return pngjs.PNG.sync.write(png)
 }
 
