@@ -1,7 +1,7 @@
 {
   "name": "psd-clipper",
   "version": "0.0.1",
-  "description": "Get Adobe PhotoShop .psd informations with Node.js",
+  "description": "Easy to read and clip Adobe PhotoShop layers by glob pattern in Node.js",
   "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=testing node_modules/.bin/nyc --reporter lcov --reporter text --report-dir test/coverage --require babel-core/register node_modules/.bin/mocha test/*.test.js && rm -rf .nyc_output",

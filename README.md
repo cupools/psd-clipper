@@ -1,6 +1,6 @@
 ## psd-clipper
 
-An easy way to read and clip Adobe PhotoShop layers by glob pattern in Node.js
+Easy to read and clip Adobe PhotoShop layers by glob pattern in Node.js
 
 ## Todo
 [x] Get layers by glob pattern
